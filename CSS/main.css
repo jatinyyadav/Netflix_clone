@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: black;
+}
+.main {
+  background-image: url("/assets/images/bg.jpg");
+  height: 94.33962264150944vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  /* background-size: max(1400px , 100vw); */
+}
+.main .box {
+  position: absolute;
+  top: 0;
+  height: 94.33962264150944vh;
+  width: 100%;
+  opacity: 0.65;
+  background-color: black;
+}
+.main nav {
+  width: 82vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 48px;
+  z-index: 1;
+  position: relative;
+}
+.hero {
+  height: 80%;
+  color: white;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Martel Sans", sans-serif;
+  gap: 18px;
+  padding: 0 30px;
+}
+.hero > :nth-child(1) {
+  font-size: 48px;
+  font-weight: 900;
+  text-align: center;
+}
+.hero > :nth-child(2) {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+.hero > :nth-child(3) {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+.start {
+  display: flex;
+}
+.sepration {
+  height: 8px;
+  background-color: rgb(66, 62, 62);
+}
+.btn {
+  padding: 5px 10px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.eng {
+  background-color: rgba(23, 23, 23, 0.01);
+  color: white;
+  font-weight: 400;
+  padding: 5px 15px;
+  margin-right: 10px;
+  border: 1px solid grey;
+}
+.red-btn {
+  color: white;
+  background-color: red;
+  padding: 13px 24px;
+  font-weight: 700;
+  font-size: 22px;
+}
+.red-btn-sm {
+  color: white;
+  background-color: red;
+  font-size: 0.9rem;
+}
+ input {
+  font-weight: 400;
+  padding: 0 10px;
+  font-size: 16px;
+  margin-right: 8px;
+  width: 23vw;
+  background-color: rgba(23, 23, 23, 0.7);
+  border: solid 1.2px grey;
+  border-radius: 4px;
+  color: white;
+}
+.first{
+    color: white;
+    display: flex;
+    max-width: 70vw;
+    margin: auto;
+    align-items: center;
+    padding: 72px 0;
+}
+.text{
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+}
+.text .hd{
+  font-size: 48px;
+  font-weight: 900;
+}
+.bd{
+  font-size: 24px;
+  font-weight: 400;
+}
+.ig{
+  position: relative;
+}
+.ig img{
+  position: relative;
+  z-index: 10;
+}
+.ig video{
+  position: absolute;
+  top: 57px;
+  right: 2px;
+}
+.second{
+  max-width: 75vw;
+  margin: auto;
+}
+.fourth{
+  max-width: 75vw;
+  margin: auto;
+}
+.faq{
+  color: white;
+  height: auto;
+  padding: 72px 0;
+}
+.faq> :first-child{
+  font-size: 48px;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+}
+.qe{
+  margin-top: 24px;
+  
+}
+.ques{
+  background-color: rgb(45, 45, 45);
+  height: 84px;
+  width: 1170px;
+  margin: auto;
+  cursor: pointer;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 24px;
+}
+.qe .ques:hover{
+  background-color: rgb(70, 70, 70);
+}
+.login-again{
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70vw;
+  margin: auto;
+  margin-top: 48px;
+}
+.te{
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 12px;
+}
+a{
+  color: rgb(190, 190, 190);
+}
+ul{
+  line-height: 2.2rem;
+}
+.only{
+  margin-left: 10rem;
+}
+.footer{
+  height: auto;
+  width: auto;
+  color: rgb(190, 190, 190);
+  margin: 70px 175px;
+  font-size: .9rem;
+}
+.content{
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.this{
+  margin-bottom: 1rem;
+
+}
